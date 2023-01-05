@@ -1,0 +1,9 @@
+-
+    name: 'Start tomcat'
+    hosts: centos_srvs
+    become: true
+    tasks:
+    - name: enable tomcat startup
+      systemd:
+        name: tomcat
+        state: started

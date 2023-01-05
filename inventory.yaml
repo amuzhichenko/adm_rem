@@ -1,0 +1,7 @@
+target18  ansible_host=192.168.2.33 ansible_user=alex ansible_sudo_pass=ipps7
+
+#target20  ansible_host=192.168.2.44 ansible_user=alex ansible_sudo_pass=ipps7
+
+
+
+
